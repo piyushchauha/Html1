@@ -1,0 +1,104 @@
+body {
+  background-image: url("../Images/nature.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+}
+
+.logocontainer {
+  height: 80px;
+}
+
+.header {
+  background-color: rgb(252, 249, 249);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.headercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.midcontainer ul {
+  display: flex;
+  list-style: none;
+}
+
+.midcontainer ul li {
+  padding: 15px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.submenu ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  cursor: pointer;
+}
+
+.lastcontainer {
+  display: flex;
+}
+
+.searchinput {
+  background-image: url("./Images/searchicon.png");
+  background-size: 18px 18px;
+  background-position: right 10px center;
+  padding: 0px 30px 0px 10px;
+  height: 35px;
+  border-radius: 8px;
+  width: 190px;
+  background-repeat: no-repeat;
+  border: 1px solid #7b7a7a;
+}
+
+.midcontainer .menu .submenu {
+  display: none;
+  background-color: rgb(240, 241, 241);
+  width: 180px;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 12px;
+  padding-top: 20px;
+}
+
+.midcontainer .menu > li > .submenu {
+  top: 38px;
+  left: 10px;
+}
+.midcontainer .menu > li > .submenu .submenu {
+  left: 180px;
+  top: -15px;
+}
+
+.submenu .submenu li {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./Images/list.png");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: left 10px center;
+}
+
+.midcontainer .menu li:hover > .submenu {
+  display: block;
+}
+
+.lielement {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-right: 10px;
+}
