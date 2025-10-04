@@ -1,9 +1,10 @@
 body {
-  background-image: url("../Images/nature.jpg");
+  /* background-image: url("../Images/nature.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
 }
+
 
 .logo {
   height: 100%;
@@ -11,12 +12,18 @@ body {
 }
 
 .logocontainer {
-  height: 80px;
+  height: 60px;
+  width: 120px;
+}
+
+.midcontainer {
+  padding: 0px 200px 0px 200px;
 }
 
 .header {
   background-color: rgb(252, 249, 249);
   width: 100%;
+  height: 70px;
   display: flex;
   align-items: center;
 }
@@ -31,10 +38,15 @@ body {
 .midcontainer ul {
   display: flex;
   list-style: none;
+  font-size: 18px;
 }
 
+.midcontainer .menu > li{
+  font-size: 18px;
+}
 .midcontainer ul li {
   padding: 15px;
+  cursor: pointer;
 }
 
 .menu li {
@@ -56,10 +68,11 @@ body {
   background-image: url("./Images/searchicon.png");
   background-size: 18px 18px;
   background-position: right 10px center;
-  padding: 0px 30px 0px 10px;
-  height: 35px;
+  padding: 2px 30px 0px 10px;
+  /* height: 35px; */
   border-radius: 8px;
-  width: 190px;
+  /* width: 190px; */
+  padding: 10px 27px 10px 14px;
   background-repeat: no-repeat;
   border: 1px solid #7b7a7a;
 }
@@ -101,4 +114,470 @@ body {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding-right: 10px;
+}
+
+.heroimagecontainer  img{
+ min-width: -webkit-fill-available;
+  height: 100%;
+}
+.heroimagecontainer{
+  height: 605px;
+  position: relative;
+}
+
+/* .heroimage{ */
+  /* object-fit: fill;
+  background-size: contain; */
+  /* min-width: -webkit-fill-available;
+  height: 100%;
+} */
+
+.heropagetext{
+  z-index: 1;
+  position: absolute;
+  top:200px;
+  left: 60px;
+ 
+}
+
+.herotext1{
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.herotext2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.heropagetext button{
+  padding:15px 60px 15px 60px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 36px;
+  font-size: 16px;
+}
+
+/* .cardsection{
+    padding: 60px;
+
+} */
+.cardsectiontitle{
+  margin-top: 20px;
+  
+}
+
+.cardtitle1{
+font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom:8px;
+}
+
+.heroimg{
+    z-index: 1;
+  position: absolute;
+ border-radius:32px ;
+}
+
+.heroimagecont1{
+ background-image: url('./Images/christ.jpg');
+ background-size: 299px;
+  height:400px;
+  width: 300px;
+  left:43%;
+  top:32%;
+ 
+}
+
+.heroimagecont2{
+  background-image: url('./Images/tree.jpg');
+  background-size: 400px;
+  height:280px;
+  width: 300px;
+  left:66%;
+  top:11%;
+
+}
+
+.heroimagecont3{
+   background-image: url('./Images/snow.jpg');
+  background-size: 495px;
+  height:280px;
+  width: 300px;
+  left:73%;
+  top:56%;
+  
+}
+/* .cardtitle2{
+  padding-left: 7px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  word-spacing: 40px;
+} */
+
+.cardtitle2{
+  display:flex;
+  align-items: center;
+}
+
+.cardtitle2place{
+   padding-left: 7px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  word-spacing: 40px;
+}
+
+.cardtitle2 img{
+  height:20px;
+  width:20px;
+}
+
+.cardtitle2 button{
+   padding:12px 32px 12px 32px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 36px;
+  font-size: 14px;
+
+}
+
+.explorebutton{
+  margin-left: 45px;
+}
+
+.cardplace{
+  margin-top: 30px;
+  display: flex;
+}
+
+.cardplacetext{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardtext{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.card{
+  border:1px solid #ccc;
+  /* height:100%; */
+  height: 440px;
+  /* width:100%; */
+  width: 330px;
+  border-radius: 32px;
+  margin-right: 15px;
+  background-size: 330px;
+
+}
+
+
+.card1{
+  background-image: url('./Images/europe.jpg');
+}
+
+.card2{
+  background-image: url('./Images/switzerland.jpg');
+}
+
+.card3{
+  background-image: url('./Images/finland.jpg');
+}
+
+.card4{
+  background-image: url('./Images/beach.jpg');
+}
+.storesection{
+  margin-top: 70px;
+}
+
+.storesectiontitle{
+  margin: 50px 0px 35px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.storesectiontitle button{
+    padding:12px 32px 12px 32px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 36px;
+  font-size: 14px;
+  /* margin-left: 120px; */
+
+}
+.storetitle{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom:8px;
+}
+
+.mainbody{
+  padding: 60px;
+}
+
+.substore{
+  display: grid;
+  grid-template-columns: 47% 53%;
+}
+
+.store1img{
+  background-image: url('./Images/food.jpg');
+  height:400px;
+  width:620px;
+  border-radius: 32px;
+}
+
+.store1text2{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-bottom:8px;
+}
+
+.store1text1{
+  color: rgb(113, 113, 113);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 600; */
+  margin:15px 0px 15px 0px;
+}
+
+.substore2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.storeimg{
+  /* border: 1px solid black; */
+  border-radius: 32px;
+  height: 192px;
+  width:230px;
+}
+
+.substore2cont1{
+  display: flex;
+}
+
+.substore2img1text{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+}
+
+.substore2img1{
+  background-image: url('./Images/market.jpg');
+  background-size: 150px;
+}
+
+.substore2img2{
+  background-image: url('./Images/hotel.jpg');
+  background-size: 300px;
+}
+.substore2img3{
+  background-image: url('./Images/eatfood.jpg');
+  background-size: 300px;
+}
+
+.trekkersection{
+  margin-top: 70px;
+}
+
+.trekkertitle{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom:8px;
+}
+
+.trekkercontain{
+  margin-top: 50px;
+    display: grid;
+  grid-template-columns: 40% 60%;
+}
+.trekkercontain1{
+  padding-left: 40px;
+
+}
+.trekkercontain1name{
+display: flex;
+align-items: center;
+}
+
+.trekkername{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.trekkercontain2{
+   display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.trekkernameimg img{
+border-radius: 50%;
+height: 80px;
+width: 80px;
+}
+
+.trekkersubname{
+  display: flex;
+  align-items: center;
+}
+
+.trekkercontentitle{
+  margin-top: 30px;
+   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.trekkercontentdetail{
+ margin-top: 30px;
+   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.trekkercontain2img{
+  border-radius: 32px;
+  height:400px;
+  width:350px;
+  /* border: 1px solid #ccc; */
+  background-image: url('./Images/turkey.jpg');
+  background-size: 350px;
+}
+
+
+.trekkercontain2video{
+   border-radius: 32px;
+  height:250px;
+  width:350px;
+  /* border: 1px solid #ccc; */
+   background-image: url('./Images/sunset.jpg');
+  background-size: 400px;
+}
+
+.trekkercontain2text{
+  display: flex;
+  padding-left: 43px;
+  margin-top: 20px;
+   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.trekkercontain2 button{
+  margin-top: 40px;
+  margin-left: 50px;
+   padding:12px 90px 12px 90px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  border-radius: 36px;
+  font-size: 14px;
+}
+
+.travelsection{
+  margin-top: 50px;
+  background-color: rgb(147, 148, 150);
+  margin-bottom: 50px;
+  padding-bottom: 120px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.traveltitlecontain{
+  padding-top: 120px;
+}
+
+.traveltitle{
+  color: white;
+  display: flex;
+  justify-content: center;
+   /* margin-top: 0px; */
+   font-size: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.subscribesection{
+  margin-top: 50px;
+   display: flex;
+  justify-content: center;
+
+}
+
+.subscribesection input[type=text]{
+  padding:15px 300px 15px 30px;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+}
+
+.subscribesection button{
+  padding:15px 30px 15px 30px;
+  border-radius: 32px;
+  font-size: 18px;
+  margin-left:10px;
+  background-color: rgb(228, 34, 9);
+  color: white;
+  border: 1px solid rgb(228, 34, 9);
+}
+
+.readpolicyline{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: white;
+}
+
+
+.footer{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding-bottom: 50px;
+
+}
+
+.footer ul li{
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7px;
+}
+
+.lastfooter{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50px;
+  background-color: black;
+}
+
+.reserved{
+ 
+  color:white
 }
